@@ -34,3 +34,28 @@ h1,h2,h3,h4,h5,h6 {
     background-color: darksalmon;
 }
 
+.container {
+    display: block;
+    flex-flow: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.online {
+    display: block;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 3em;
+    width: 32%;
+
+}
+
+.plant {
+    display: grid; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    float: left;
+}

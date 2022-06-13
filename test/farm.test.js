@@ -18,8 +18,9 @@ const plan = [
 let plantedSeeds
 
 beforeAll(() => {
-    plantSeeds(plan)
-    plantedSeeds = usePlants()
+    const newPlant = plantSeeds(plan)
+    console.log(newPlant)
+    plantedSeeds = usePlants(newPlant)
 })
 
 describe("Seed objects have correct properties", () => {

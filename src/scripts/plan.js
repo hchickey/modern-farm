@@ -1,5 +1,8 @@
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
+// this is all given code
+//the createPlan function is iterating through each crop and pushing it into a row
+
 export const createPlan = () => {
     const plan = []
 
