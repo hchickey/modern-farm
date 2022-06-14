@@ -35,27 +35,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
-    display: block;
-    flex-flow: wrap;
-    flex-direction: row;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    background-color: #fff8c5;
 }
 
 .online {
-    display: block;
-    justify-content: space-around;
-    flex-flow: row wrap;
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    font-size: 3em;
-    width: 32%;
-
+    justify-content: first baseline;
+    align-items: stretch;
+    
 }
 
 .plant {
-    display: grid; 
-    justify-content: space-around;
-    flex-wrap: wrap;
-    float: left;
+    padding: 2em;
 }
